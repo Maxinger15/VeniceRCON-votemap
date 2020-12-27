@@ -1,0 +1,24 @@
+#name of the plugin
+name: "Map Vote"
+#description of the plugin
+description: "Enables a mapvote at the end of a round"
+#the version string for the plugin
+version: "1.0.0"
+#backend which the plugin can run under "BF3" and "VU" allowed
+#"BF3" plugins will run under BF3 and VU
+backend: "BF3"
+#plugin entry point
+entry: "index.js"
+vars:
+  - name: "overviewDelay"
+    description: "Delay between the posts of the mapvote status in the chat in milliseconds"
+    type: "number"
+    default: 50000
+  - name: "yellDelay"
+    description: "Delay between yells with the current maps and votes in milliseconds" 
+    type: "number"
+    default: 45000
+  - name: "ticketCount"
+    description: "Ticket count when the vote should start"
+    type: "number"
+    default: 120

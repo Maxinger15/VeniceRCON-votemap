@@ -1,0 +1,22 @@
+{
+  "name": "venicercon-pingkicker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Multivit4min/VeniceRCON-showcase-plugin.git"
+  },
+  "author": "Maxinger15",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Multivit4min/VeniceRCON-showcase-plugin/issues"
+  },
+  "homepage": "https://github.com/Multivit4min/VeniceRCON-showcase-plugin#readme",
+  "devDependencies": {
+    "vu-rcon": "^1.1.0"
+  }
+}
